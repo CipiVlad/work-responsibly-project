@@ -48,6 +48,11 @@ header {
     padding-left: 200px;
 }
 
+header div nav a:hover {
+    text-decoration: wavy;
+    color: white;
+}
+
 .topnav {
     text-align: left;
     display: inline-block;
@@ -56,19 +61,20 @@ header {
 
 .topnav a {
     display: inline-block;
-
+    padding-right: 10px;
 }
 
 .topnav a {
     text-decoration: none;
     color: #659d89;
+    font-weight: 600;
 
 }
 
 header div h1 {
     font-size: 50px;
     color: #659d89;
-
+    font-weight: 600;
     padding: 50px 0 50px 200px;
 
 }
@@ -77,7 +83,7 @@ header div p {
     width: 800px;
     font-size: 50px;
     color: #000;
-    text-decoration: bold;
+    font-weight: bold;
     padding: 0 0 50px 200px;
 
 }
@@ -91,14 +97,30 @@ header div p {
     padding: 15px 0;
 }
 
+aside a:hover {
+    background: white;
+    border-radius: 50%;
+}
+
 
 header p {
     text-decoration: solid;
     color: #666;
-
+    padding-right: 10px;
     padding: 0 0 50px 200px;
+    font-weight: 600;
+}
+
+header>p {
+    border-bottom: thin solid rgb(182, 172, 172);
 
 }
+
+header>p::before {
+    content: '↓';
+    color: #333;
+}
+
 
 /* 
 
@@ -110,67 +132,100 @@ SECTION STYLE
 section {
     width: 100vw;
     height: 100vh;
-}
-
-section h2,
-section p {
+    border-bottom: thin solid rgb(182, 172, 172);
     padding: 0 0 50px 200px;
-}
-
-.blockrowOne {
-    margin-top: 100px;
-
-    padding-left: 200px;
 
 }
 
-section .blockrowTwo {
-    margin-top: 1px;
-    padding: 0 0 20px 200px;
-
+section .headline {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.blockrowOne .img2 {
+.imghover img {
     display: inline-block;
-    padding: 50px;
+    padding: 20px;
 }
 
-.blockrowTwo .img2 {
-    display: inline-block;
-    padding: 50px;
+.imghover img:hover {
+
+    box-shadow: 0 0 .4em #333;
+    border-radius: 13px;
 }
-
-
-
-
-
-
-
-
 
 
 /* ================================ 
 MAIN STYLE
 ================================*/
+main h2 {
 
-/* 
- */
+    padding-left: 200px;
+    margin-top: 100px;
 
-main {
-    margin-top: 400px;
 }
 
-main h2 {
-    padding: 0 0 50px 200px;
+
+
+main article h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #666;
+
+}
+
+main article a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+main article p {
+    color: #666;
 }
 
 .left {
-    padding: 0 0 50px 200px;
+    /* background-color: rgb(106, 255, 0); */
+    width: 600px;
+    height: 350px;
+    /* padding: 20px; */
+    margin: 200px;
+
 
 }
 
+.left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+
+}
+
+
 .right {
-    padding: 50px 0 50px 600px;
+    /* background-color: blue; */
+    width: 600px;
+    height: 350px;
+    /* padding: 20px; */
+    margin-left: 600px;
+    margin-top: 100px;
+
+}
+
+
+.right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+.lefttext,
+.righttext {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+
 }
 
 
@@ -178,14 +233,33 @@ main h2 {
 FOOTER STYLE
 ================================*/
 
+footer {
+    text-align: center;
+    margin-top: 200px;
+    border-top: thin solid rgb(182, 172, 172);
 
+}
 
+footer p {
+    /* background: blue; */
+    padding: 50px;
+}
 
+footer p::before {
+    content: '↑';
+    color: #333;
+}
 
-/* 
+footer h6 {
+    margin-bottom: 20px;
 
-================================
- STYLE
-================================
+}
 
-*/
+footer p a {
+    text-decoration: none;
+    color: #666;
+}
+
+h6::before {
+    content: ' ©';
+}
