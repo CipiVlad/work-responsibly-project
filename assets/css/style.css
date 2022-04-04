@@ -25,6 +25,9 @@ GENERAL STYLE
     box-sizing: border-box;
 }
 
+body {
+    background: #ccc
+}
 
 /* ================================
 HEADER STYLE
@@ -32,9 +35,68 @@ HEADER STYLE
 /* 
  */
 
+header {
+    background-color: #ccc;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+
+/* 
+
+================================
+SECTION STYLE
+================================
+
+*/
+section {}
+
 /* ================================ 
 MAIN STYLE
 ================================*/
+
+/* 
+ */
+
+main {}
+
+
+
+/* woman thru loops url
+image
+https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5cfbddef0e4785553059f4be_focus-01.png
+
+link
+https://www.nytimes.com/2019/01/13/smarter-living/how-to-actually-truly-focus-on-what-youre-doing.html
+*/
+
+/*  M.Walker on air
+img
+https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d473ac4baced74661d2e0dd_sleep-video-02.png
+
+link
+https://www.youtube.com/watch?v=pwaWilO_Pig
+
+*/
+
+/*  insomnia
+img
+https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d473aa9f0c5a73bff5a7c33_sleep-article-03-p-1080.png
+
+link
+https://www.theguardian.com/science/2018/oct/08/sleep-how-much-do-we-really-need
+*/
+
+/* starring at mobile
+img
+https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d363c180ec603377be022ca_focus-video-01-p-1080.png
+
+link
+https://www.youtube.com/watch?v=9z8_YhWoq2o
+*/
+
 
 
 /* ================================
@@ -43,13 +105,7 @@ FOOTER STYLE
 
 
 
-/* 
 
-================================
-STYLE
-================================
-
-*/
 
 /* 
 
