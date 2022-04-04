@@ -26,8 +26,10 @@ GENERAL STYLE
 }
 
 body {
-    background: #ccc
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 /* ================================
 HEADER STYLE
@@ -39,10 +41,64 @@ header {
     background-color: #ccc;
     width: 100vw;
     height: 100vh;
+}
 
+.navbartop {
+    margin-top: 50px;
+    padding-left: 200px;
+}
+
+.topnav {
+    text-align: left;
+    display: inline-block;
 
 }
 
+.topnav a {
+    display: inline-block;
+
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #659d89;
+
+}
+
+header div h1 {
+    font-size: 50px;
+    color: #659d89;
+
+    padding: 50px 0 50px 200px;
+
+}
+
+header div p {
+    width: 800px;
+    font-size: 50px;
+    color: #000;
+    text-decoration: bold;
+    padding: 0 0 50px 200px;
+
+}
+
+.navside {
+    text-align: right;
+    margin-right: 200px;
+}
+
+.navsideMiddle {
+    padding: 15px 0;
+}
+
+
+header p {
+    text-decoration: solid;
+    color: #666;
+
+    padding: 0 0 50px 200px;
+
+}
 
 /* 
 
@@ -51,7 +107,47 @@ SECTION STYLE
 ================================
 
 */
-section {}
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+section h2,
+section p {
+    padding: 0 0 50px 200px;
+}
+
+.blockrowOne {
+    margin-top: 100px;
+
+    padding-left: 200px;
+
+}
+
+section .blockrowTwo {
+    margin-top: 1px;
+    padding: 0 0 20px 200px;
+
+}
+
+.blockrowOne .img2 {
+    display: inline-block;
+    padding: 50px;
+}
+
+.blockrowTwo .img2 {
+    display: inline-block;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
 
 /* ================================ 
 MAIN STYLE
@@ -60,43 +156,22 @@ MAIN STYLE
 /* 
  */
 
-main {}
+main {
+    margin-top: 400px;
+}
 
+main h2 {
+    padding: 0 0 50px 200px;
+}
 
+.left {
+    padding: 0 0 50px 200px;
 
-/* woman thru loops url
-image
-https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5cfbddef0e4785553059f4be_focus-01.png
+}
 
-link
-https://www.nytimes.com/2019/01/13/smarter-living/how-to-actually-truly-focus-on-what-youre-doing.html
-*/
-
-/*  M.Walker on air
-img
-https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d473ac4baced74661d2e0dd_sleep-video-02.png
-
-link
-https://www.youtube.com/watch?v=pwaWilO_Pig
-
-*/
-
-/*  insomnia
-img
-https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d473aa9f0c5a73bff5a7c33_sleep-article-03-p-1080.png
-
-link
-https://www.theguardian.com/science/2018/oct/08/sleep-how-much-do-we-really-need
-*/
-
-/* starring at mobile
-img
-https://assets.website-files.com/5cfbc938982a74a06bedeb1a/5d363c180ec603377be022ca_focus-video-01-p-1080.png
-
-link
-https://www.youtube.com/watch?v=9z8_YhWoq2o
-*/
-
+.right {
+    padding: 50px 0 50px 600px;
+}
 
 
 /* ================================
